@@ -36,6 +36,7 @@ namespace WindowsFormsApp2
         {
             string result = "\n Nazwisko: " + nazwisko.Text + "\n Imię: " + imie.Text + "\n Data urodzenia: " + data.Text + "\n Miejsce urodzenia: " + miejsceurodzenia.Text + "\n Adres: " + adres.Text + "\n Kod pocztowy: " + kodpocztowy.Text + "\n Telefon: " + telefon.Text;
             results.Text = result;
+            PictureBox.ImageLocation = Url.Text;
         }
 
         private void results_TextChanged(object sender, EventArgs e)
